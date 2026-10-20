@@ -1,0 +1,24 @@
+{
+  "scenario": "PRIMARIA_4A_V1",
+  "target": { "machine": "LizandroTanta", "instance": "MSSQLSERVER03", "database": "GestorTareasDB" },
+  "accounts": [
+    { "reference": "DOCENTE", "nombres": "Diego Alonso", "apellidos": "Rojas Salcedo", "correo": "p4a.docente@example.test", "rol": "DOCENTE" },
+    { "reference": "A01", "nombres": "Camila Valentina", "apellidos": "Soto Ramírez", "correo": "p4a.alumno01@example.test", "rol": "ALUMNO" },
+    { "reference": "A02", "nombres": "Mateo Alejandro", "apellidos": "Ríos Paredes", "correo": "p4a.alumno02@example.test", "rol": "ALUMNO" },
+    { "reference": "A03", "nombres": "Luciana Isabel", "apellidos": "Vega Salazar", "correo": "p4a.alumno03@example.test", "rol": "ALUMNO" },
+    { "reference": "A04", "nombres": "Santiago Nicolás", "apellidos": "Flores Cárdenas", "correo": "p4a.alumno04@example.test", "rol": "ALUMNO" },
+    { "reference": "A05", "nombres": "Valentina Sofía", "apellidos": "Ruiz Cabrera", "correo": "p4a.alumno05@example.test", "rol": "ALUMNO" },
+    { "reference": "A06", "nombres": "Sebastián Adrián", "apellidos": "León Vásquez", "correo": "p4a.alumno06@example.test", "rol": "ALUMNO" },
+    { "reference": "A07", "nombres": "Daniela Camila", "apellidos": "Herrera Núñez", "correo": "p4a.alumno07@example.test", "rol": "ALUMNO" },
+    { "reference": "A08", "nombres": "Joaquín Gabriel", "apellidos": "Mendoza Rojas", "correo": "p4a.alumno08@example.test", "rol": "ALUMNO" },
+    { "reference": "A09", "nombres": "Renata Lucía", "apellidos": "Castro Delgado", "correo": "p4a.alumno09@example.test", "rol": "ALUMNO" },
+    { "reference": "A10", "nombres": "Thiago Andrés", "apellidos": "Navarro Quispe", "correo": "p4a.alumno10@example.test", "rol": "ALUMNO" }
+  ],
+  "courses": [
+    { "codigo": "PRU4A-MAT", "nombre": "Matemática - 4.º A Primaria (prueba)" },
+    { "codigo": "PRU4A-COM", "nombre": "Comunicación - 4.º A Primaria (prueba)" },
+    { "codigo": "PRU4A-CYT", "nombre": "Ciencia y Tecnología - 4.º A Primaria (prueba)" },
+    { "codigo": "PRU4A-PS", "nombre": "Personal Social - 4.º A Primaria (prueba)" },
+    { "codigo": "PRU4A-ART", "nombre": "Arte y Cultura - 4.º A Primaria (prueba)" }
+  ]
+}
